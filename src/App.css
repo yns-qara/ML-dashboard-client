@@ -1,10 +1,21 @@
 
+.App{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  height: 100vh;
+}
+
+.right_container{
+  padding: 25px;
+}
 
 .sidebar_container{
   background-color: aquamarine;
-  height: 100vh;
+  height: 100%;
   max-width: 23%;
-  padding: 15px;
+  padding: 25px;
+  flex-basis: 20%;
 
   display: flex;
   align-items: center;
@@ -26,6 +37,8 @@
   align-items: center;
   justify-content: center;
   gap: 5px;
+
+  cursor: pointer;
 }
 .sideBar_element svg{
   width: 25px;
