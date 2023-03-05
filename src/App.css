@@ -1,16 +1,19 @@
 
-.App{
+.App {
   display: flex;
   align-items: center;
   /* justify-content: center; */
   height: 100vh;
 }
 
-.right_container{
+.right_container {
   padding: 25px;
 }
 
-.sidebar_container{
+.right_container div{
+
+}
+.sidebar_container {
   background-color: aquamarine;
   height: 100%;
   max-width: 23%;
@@ -23,7 +26,7 @@
 }
 
 
-.sidebar_container__elements{
+.sidebar_container__elements {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -31,7 +34,7 @@
   gap: 25px;
 }
 
-.sideBar_element{
+.sideBar_element {
   font-size: 25px;
   display: flex;
   align-items: center;
@@ -40,7 +43,8 @@
 
   cursor: pointer;
 }
-.sideBar_element svg{
+
+.sideBar_element svg {
   width: 25px;
   height: 25px;
   padding: 0;
